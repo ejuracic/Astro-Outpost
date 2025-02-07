@@ -1,3 +1,10 @@
+/*
+    File: CosmoInferno.cs
+    Developer: Emanuel Juracic
+    First Version: February 06, 2025
+    Description:
+*/
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
