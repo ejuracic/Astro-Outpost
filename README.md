@@ -1,2 +1,2 @@
 # Astro Outpost
- Arcade game with a story. Astroids-like clone
+ Arcade game with a story. Asteroids-like clone
