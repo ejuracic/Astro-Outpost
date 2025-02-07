@@ -43,7 +43,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -95,7 +95,343 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Tiny Asteroid 1
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 484
+        width: 26
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20c81c09a9d8ee45b93383e64d45038
+      internalID: -1282166918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny Asteroid 2
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 484
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd202aa9003eff548a38c627888ff678
+      internalID: 977002599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small Asteroid 1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 454
+        width: 48
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8dbd6e3a1501d429476a96a681eb2a
+      internalID: -1275057919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medium Lengthy Asteroid  2
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 394
+        width: 48
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14b60fe5d94b8fd44ae98ab76fe16ba3
+      internalID: -1645038894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medium Lengthy Asteroid  1
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 390
+        width: 47
+        height: 116
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce094a625278e747acaf51c6730bc6d
+      internalID: -1453226448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medium Asteroid 1
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 393
+        width: 100
+        height: 107
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d124e7c188d2b254bbb5ef8b7a63de59
+      internalID: 1814527645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Lengthy Asteroid  1
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 267
+        width: 101
+        height: 233
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f53c4cc182920484a87400a98f0a657a
+      internalID: -1296565047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny Asteroid 3
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 450
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feae81e96c5ee464aa861cc6ef8be05f
+      internalID: 190707441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tiny Asteroid 4
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 450
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9de14409a6a779646967b343bc05088d
+      internalID: -1544244368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small Asteroid 2
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 389
+        width: 47
+        height: 53
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52cbf454b3d0cbe4996c80e0d674fbc3
+      internalID: -1024154533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Small Asteroid 3
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 392
+        width: 54
+        height: 52
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8d70aa928ab0194b8e84b76b0ae4728
+      internalID: 383506737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medium Asteroid 2
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 269
+        width: 100
+        height: 99
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889f5ee29fac1b948b740391f37745ff
+      internalID: 816733887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medium Asteroid 3
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 266
+        width: 100
+        height: 112
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c8cb640b06fc1f4996bd086a8b393ed
+      internalID: -224759593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Medium Asteroid 4
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 271
+        width: 110
+        height: 105
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de9ae45ae3f94f4f8cdd299a00f777d
+      internalID: -1940764213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Asteroid 1
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 9
+        width: 222
+        height: 227
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ceed91526fce62840b8828778a0ac819
+      internalID: 1795738853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Large Asteroid 2
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 15
+        width: 215
+        height: 228
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92c0cf9a07a943e40baad46db7fd54d2
+      internalID: -1138544988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +442,23 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Large Asteroid 1: 1795738853
+      Large Asteroid 2: -1138544988
+      Large Lengthy Asteroid  1: -1296565047
+      Medium Asteroid 1: 1814527645
+      Medium Asteroid 2: 816733887
+      Medium Asteroid 3: -224759593
+      Medium Asteroid 4: -1940764213
+      Medium Lengthy Asteroid  1: -1453226448
+      Medium Lengthy Asteroid  2: -1645038894
+      Small Asteroid 1: -1275057919
+      Small Asteroid 2: -1024154533
+      Small Asteroid 3: 383506737
+      Tiny Asteroid 1: -1282166918
+      Tiny Asteroid 2: 977002599
+      Tiny Asteroid 3: 190707441
+      Tiny Asteroid 4: -1544244368
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
