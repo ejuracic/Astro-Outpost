@@ -19,6 +19,8 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D playerRigidBody;
     private PlayerInputActions playerInputActions;
 
+    private float moveInput;
+
     private Camera mainCamera;
 
 
@@ -33,9 +35,10 @@ public class PlayerController : MonoBehaviour
         mainCamera = Camera.main;
 
         //Events
-        playerInputActions.Player.Move.performed += ctx => MovePlayer(ctx.ReadValue<Vector2>());
-        playerInputActions.Player.Move.canceled += ctx => StopMovingPlayer();
+        playerInputActions.Player.Move.performed += MovePlayer;
+        playerInputActions.Player.Move.canceled += _ => StopMovingPlayer();
         playerInputActions.Player.Look.performed += ctx => LookRotation(ctx.ReadValue<Vector2>());
+        moveInput = 0;
     }
 
     private void OnEnable()
@@ -52,25 +55,35 @@ public class PlayerController : MonoBehaviour
     {
         playerStats.Health = 100;
         playerStats.Shield = 100;
-        playerStats.Speed = 5;
+        playerStats.Speed = 0;
+        playerStats.MaxSpeed = 5f;
         playerStats.Lives = 3;
         playerStats.Score = 0;
     }
-
     private void FixedUpdate()
     {
-        playerRigidBody.velocity = playerMovementInput * playerStats.Speed;
-    }
+        if (moveInput > 0) // Holding W - Accelerate
+        {
+            playerStats.Speed = Mathf.Min(playerStats.Speed + Time.fixedDeltaTime * 10, playerStats.MaxSpeed);
+        }
+        else if (moveInput < 0) // Holding S - Slow down (but no reverse)
+        {
+            playerStats.Speed = Mathf.Max(playerStats.Speed - Time.fixedDeltaTime * 10, 0f);
+        }
 
-    private void MovePlayer(Vector2 direction)
+        playerRigidBody.velocity = transform.up * playerStats.Speed; // Move forward at current speed
+    }
+    private void MovePlayer(InputAction.CallbackContext context)
     {
-        playerMovementInput = direction;
+        moveInput = context.ReadValue<float>(); // Store W (1) or S (-1)
     }
 
     private void StopMovingPlayer()
     {
-        playerMovementInput = Vector2.zero;
+        // Slowly decelerate when no input is given
+        playerStats.Speed = Mathf.Max(playerStats.Speed - Time.deltaTime * 5, 0f);
     }
+
 
     private void LookRotation(Vector2 MousePointer)
     {
