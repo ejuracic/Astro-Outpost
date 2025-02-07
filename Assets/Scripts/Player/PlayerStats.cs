@@ -11,15 +11,10 @@ using UnityEngine;
 
 public class PlayerStats : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public int Health { get; set; }
+    public int Shield { get; set; }
+    public float Speed { get; set; }
+    public int Lives { get; set; }
+    public int Score { get; set; }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
